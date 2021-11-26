@@ -9,4 +9,4 @@ With python 3.10 or later
 
 > python image-to-text.py /path/to/image.jpg
 > 
-Output will be titled _image_to_text.txt_ in the same directory
+Output will be titled _image_to_text.txt_ in the same directory as the image
