@@ -3,9 +3,10 @@ import math
 import sys
 import os
 
-# character options
+# character mapping options
 #chars = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
-chars = "$Xx=+;:. "
+#chars = "$Xx=+;:. "
+chars = "$=:."
 
 # ensuring proper args included
 path = None;
@@ -33,7 +34,7 @@ while char != ".":
     output = output[:-1]
     char = output[-1]
 output = output[:-1]
-output += "_to_ascii.txt"
+output += "_to_text.txt"
 
 # open/create output file and clear it
 f = open(output, "a")
